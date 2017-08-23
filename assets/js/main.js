@@ -72,27 +72,27 @@ $(document).ready(function() {
     marquee($('#display'), $('#text')); //Enter name of container element & marquee element
 });
 
-if (window.location.pathname == "/profile.html") {
+if (window.location.pathname == "/bp2gaki/profile.html") {
     $(".section-a").backstretch([
         "https://image.ibb.co/kinpK5/bg_profile_1.png", "https://image.ibb.co/nczfRk/bg_profile_2.png"
     ], { duration: 5000, fade: 750 });
-} else if (window.location.pathname == "/visi-misi.html") {
+} else if (window.location.pathname == "/bp2gaki/visi-misi.html") {
     $(".section-a").backstretch([
         "https://image.ibb.co/d5N9mk/bg_visi_misi_1.png", "https://image.ibb.co/b50vRk/bg_visi_misi_2.png"
     ], { duration: 5000, fade: 750 });
-} else if (window.location.pathname == "/struktur-organisasi.html") {
+} else if (window.location.pathname == "/bp2gaki/struktur-organisasi.html") {
     $(".section-a").backstretch([
         "https://image.ibb.co/d0EkSQ/so_1.png", "https://image.ibb.co/jxUwZ5/so_2.png", "https://image.ibb.co/nKxuMk/so_3.png"
     ], { duration: 5000, fade: 750 });
-} else if (window.location.pathname == "/tata-kerja.html") {
+} else if (window.location.pathname == "/bp2gaki/tata-kerja.html") {
     $(".section-a").backstretch([
         "https://image.ibb.co/mC5vu5/bg_tata_kerja_01.png", "https://image.ibb.co/fKSVSQ/bg_tata_kerja_02.png", "https://image.ibb.co/cesrZ5/bg_tata_kerja_03.png"
     ], { duration: 5000, fade: 750 });
-} else if (window.location.pathname == "/berita.html") {
+} else if (window.location.pathname == "/bp2gaki/berita.html") {
     $(".section-a").backstretch([
         "https://image.ibb.co/d0EkSQ/so_1.png", "https://image.ibb.co/jxUwZ5/so_2.png", "https://image.ibb.co/nKxuMk/so_3.png"
     ], { duration: 5000, fade: 750 });
-} else if (window.location.pathname == "/kontak-kami.html") {
+} else if (window.location.pathname == "/bp2gaki/kontak-kami.html") {
     $(".section-a").backstretch([
         "https://image.ibb.co/d5N9mk/bg_visi_misi_1.png", "https://image.ibb.co/b50vRk/bg_visi_misi_2.png"
     ], { duration: 5000, fade: 750 });
