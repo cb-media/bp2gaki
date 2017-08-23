@@ -70,6 +70,7 @@ function marquee(a, b) {
 $(document).ready(function() {
     // Running Text
     marquee($('#display'), $('#text')); //Enter name of container element & marquee element
+
 });
 
 if (window.location.pathname == "/bp2gaki/profile.html") {
@@ -101,3 +102,8 @@ if (window.location.pathname == "/bp2gaki/profile.html") {
         "https://image.ibb.co/k2jk95/bg_hero.png", "https://image.ibb.co/nc8j2Q/bg_hero_1.png", "https://image.ibb.co/i8rF95/bg_hero_2.png", "https://image.ibb.co/jFcoU5/bg_hero_3.png"
     ], { duration: 3000, fade: 750 });
 }
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});

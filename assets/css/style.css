@@ -730,3 +730,46 @@ marquee {
     text-align: justify;
     font-size: 1.3em;
 }
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin: 30px auto 0px auto;
+}
+
+#quote-carousel .carousel-control.left {
+    left: -12px;
+}
+
+#quote-carousel .carousel-control.right {
+    right: -12px;
+}
+
+#quote-carousel .carousel-indicators {
+    top: auto;
+    bottom: 0px;
+}
+
+#quote-carousel .carousel-indicators li {
+    background: green;
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: darkgreen;
+}
+
+#quote-carousel img {
+    /* margin-left: 10%; */
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
